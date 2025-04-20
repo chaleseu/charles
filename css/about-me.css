@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+h1{
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 40px;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+}
+.rimg {
+  
+  max-width: 200px;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.section {
+  min-height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.navbar {
+  background-color: lightseagreen;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.box{
+width: 300px;
+height: 330px;
+background-color: gray;
+text-align: center;
+border: 3px solid white;
+border-radius: 10px;
+font-size: 16px;
+
+}
+
+.box:hover {
+  background-color: darkgray;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.footerbottom{
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+        }
+        footer {
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+    
